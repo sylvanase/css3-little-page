@@ -48,6 +48,27 @@ function Doraemon({dispatch, list: dataSource, loading, total, page: current}) {
             <div className={styles.bell_light}></div>
           </div>
         </div>
+        <div className={styles.bodys}>
+          <div className={styles.body}></div>
+          <div className={styles.wraps}></div>
+          <div className={styles.pocket}></div>
+          <div className={styles.pocket_mask}></div>
+        </div>
+        <div className={styles.hand_right}>
+          <div className={styles.arm}></div>
+          <div className={styles.circle}></div>
+          <div className={styles.arm_rewrite}></div>
+        </div>
+        <div className={styles.hand_left}>
+          <div className={styles.arm}></div>
+          <div className={styles.circle}></div>
+          <div className={styles.arm_rewrite}></div>
+        </div>
+        <div className={styles.foot}>
+          <div className={styles.left}></div>
+          <div className={styles.right}></div>
+          <div className={styles.foot_rewrite}></div>
+        </div>
       </div>
     </div>
   );
